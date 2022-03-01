@@ -4,8 +4,9 @@ h1{
 }
 
 .principal{
-    margin: 0 20%;
-    padding: 50px 110px;
+    margin: 5% 26%;
+    padding: 20px 40px;
+    border: 1px solid black;
 }
 
 .Box-1{
