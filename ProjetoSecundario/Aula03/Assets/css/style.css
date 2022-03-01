@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+
+}
+
+.principal{
+    padding: 10% 25% 0 25%;
+
+}
+
+.Box-1{
+    background-color: #4F80E0;
+    color: white;
+    padding: 7px;
+    
+}
+#SubTitulo{
+    color:#2f6eec;
+    text-align: center;
+}
+
+.Box-2{
+    border: 3px dashed #2f6eec;
+    padding: 7px;
+    
+}
+
+#alunos{
+    color:green
+}
