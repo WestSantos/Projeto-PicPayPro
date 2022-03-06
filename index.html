@@ -51,22 +51,22 @@
 
                     <ul class="secaoDetalhesConta_opcoesTransacoes">
                         
-                        <li class="secaoDetalhesConta_itemTransacao">
+                        <li class="secaoDetalhesConta_itemTransacao" id="1">
                             <img src="assets/img/qrcode.png" alt="qrcode">
                             <p>QR Code</p>
                         </li>
 
-                        <li class="secaoDetalhesConta_itemTransacao">
+                        <li class="secaoDetalhesConta_itemTransacao" id="2">
                             <img src="assets/img/pix.png" alt="Pix">
                             <p>Pix</p>
                         </li>
 
-                        <li class="secaoDetalhesConta_itemTransacao">
+                        <li class="secaoDetalhesConta_itemTransacao" id="3">
                             <img src="assets/img/codigo.png" alt="Boleto">
                             <p>Pagar Boleto</p>
                         </li>
 
-                        <li class="secaoDetalhesConta_itemTransacao">
+                        <li class="secaoDetalhesConta_itemTransacao" id="4">
                             <img src="assets/img/cobrar-icon.png" alt="Cobrar">
                             <p>Cobrar</p>
                         </li>
@@ -80,14 +80,14 @@
                 <div class="container">
                     
                     <!-- div selecione forma de agamento -->
-                    <div class="secaoTransacao_avisoSelecao">
+                    <div class="secaoTransacao_avisoSelecao mostrar">
                         <p>Selecione a forma de pagamento</p>
                         <img src="assets/img/banner.png" alt="formpag">
 
                     </div>
                     
                     <!--Div QrCode-->
-                    <div class="secaoTransacao_qrCode">
+                    <div data-id="1" class="secaoTransacao_qrCode">
                         <img src="assets/img/qrcode-imagem.png" alt="qrcode">
                         <p>@Weslleysantos4545</p>
                         <button>Cobre um amigo</button>
@@ -95,7 +95,7 @@
                     </div>
 
                     <!--Div Pix-->
-                    <div class="secaoTransacao_pix">
+                    <div data-id="2" class="secaoTransacao_pix">
                         <img src="assets/img/pix-logo.png" alt="Logo pix">
                         <div class="secaoTransacao_boxOpcao">
                             <img src="assets/img/pix1.png" alt="Icone opcao Pix">
@@ -104,7 +104,7 @@
                     </div>
                     
                     <!--Div Boleto-->
-                    <div class="secaoTransacao_boleto">
+                    <div data-id="3" class="secaoTransacao_boleto">
                         <img src="assets/img/boleto.png">
                         <h2>Pagar com código de barras</h2>
                         <p>Você pode parcelar em até 12x no cartão ou usar seu saldo em carteira para pagar à vista</p>
@@ -112,7 +112,7 @@
                     </div>
 
                     <!--Div Cobrar-->
-                    <div class="secaoTransicao_cobrar">
+                    <div data-id="4" class="secaoTransicao_cobrar">
                         <img src="assets/img/cobrar.png" alt="Ícone cobrar">
                         <h2>Cobrar</h2>
                         <p>Divida a conta com os amigos de forma fácil!</p>
@@ -167,7 +167,7 @@
             </footer>
 
         </main>
-        
+        <script src="./assets/js/script.js"></script>
     </body>
 
 </html>
