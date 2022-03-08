@@ -38,25 +38,28 @@ body{
 
 
 .ImgUsuario {
-    transform:translate(450px);
+    display: flex;
     width: 100%;
     max-width: 35px;
  
 }
 
-
-.ImgUsuario2{
-    transform:translate(1390%);
-    width: 100%;
-    max-width: 35px;
+.ImgUsuario img{
+    margin: 0 15px;
+    transform:translate(-250%); 
 }
-
 
 
 .secaoDetalhesConta_sobreUsuario{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.secaoDetalhesConta_sobreUsuario_nome{
+    display: flex;
+    align-items: center;
 }
 
 .secaoDetalhesConta_sobreUsuario p{
